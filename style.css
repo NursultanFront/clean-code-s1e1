@@ -69,7 +69,7 @@ button{
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -81,7 +81,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.input:focus {
     color: #333;
 }
 
@@ -120,10 +120,10 @@ input[type="text"]:focus {
     font-size: 18px;
     width: 226px;
 }
-.list > input[type="text"] {
+.list > .input {
     width: 226px
 }
-.list > button.delete:hover {
+.list > .delete:hover {
     color: #CF2323;
 }
 .delete-img {
@@ -136,21 +136,21 @@ input[type="text"]:focus {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .label {
     text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
-.list input[type=text] {
+.list .input {
     display:none
 }
 
-.editMode input[type=text] {
+.editMode .input {
     display:inline-block;
     width:224px
 }
 
-.editMode label {
+.editMode .label {
     display:none;
 }
